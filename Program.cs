@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 Console.WriteLine(Directory.GetCurrentDirectory());
 var salesFiles = FindFiles("stores");
+//moscrosft learn methods and method operators
+int firstValue = 500;
+int secondValue = 600;
+int largerValue;
+largerValue = Math.Max(firstValue, secondValue);
+
+Console.WriteLine(largerValue);
 
 foreach (var file in salesFiles)
 {
